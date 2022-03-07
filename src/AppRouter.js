@@ -1,16 +1,21 @@
 import React from "react";
-import { HashRouter as Router, Switch, Route } from "react-router-dom";
-import { Home } from "pages";
+import { BrowserRouter as Router, Switch, Route, Redirect } from "react-router-dom";
+import  Home  from "pages/Home/Home";
+import Favorites from "pages/Favorites/Favorites";
 import { ThemeProvider } from "theme";
-import NavBar from "components/NavBar";
+import NavBar from "components/NavBar/NavBar";
 
 const AppRouter = () => {
   return (
     <ThemeProvider>
       <Router>
-        <NavBar />
+        <Route path="/home" render={(history) => (
+          <NavBar history={history} />
+        )}/>
         <Switch>
-          <Route exact path="/" component={Home} />
+          <Route exact path="/home" component={Home} />
+          <Route path="/favorites" component={Favorites} />
+          <Redirect from="/" to="/home" />
         </Switch>
       </Router>
     </ThemeProvider>

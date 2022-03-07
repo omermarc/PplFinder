@@ -1,25 +1,28 @@
 import styled from "styled-components";
 
-
-export const GenderSearch = styled.div`
+export const Favorites = styled.div`
   display: flex;
+  height: 100vh;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  gap: 20px;
+  box-sizing: border-box;
 `;
 
-
-export const UserList = styled.div`
+export const Content = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items:center;
-  margin-bottom: 100px;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-block-start: 100px;
 `;
 
+export const Header = styled.div`
+  display: flex;
+`;  
+
 export const List = styled.div`
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   gap: 35px;
@@ -66,15 +69,5 @@ export const Filters = styled.div`
   justify-content: center;
   & > * {
     margin-inline-end: 8px;
-  }
-`;
-
-export const FilterContainer = styled.div`
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
-  .filter-label {
-    margin-right: 20px;
-    text-decoration: underline;
   }
 `;
