@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/PplFinder/static/js/main.2362265b.chunk.js",
-    "main.js.map": "/PplFinder/static/js/main.2362265b.chunk.js.map",
-    "runtime-main.js": "/PplFinder/static/js/runtime-main.39b1a71a.js",
-    "runtime-main.js.map": "/PplFinder/static/js/runtime-main.39b1a71a.js.map",
-    "static/js/2.229f9e7d.chunk.js": "/PplFinder/static/js/2.229f9e7d.chunk.js",
-    "static/js/2.229f9e7d.chunk.js.map": "/PplFinder/static/js/2.229f9e7d.chunk.js.map",
-    "index.html": "/PplFinder/index.html",
-    "static/js/2.229f9e7d.chunk.js.LICENSE.txt": "/PplFinder/static/js/2.229f9e7d.chunk.js.LICENSE.txt"
+    "main.js": "//omermarc/PplFinder/static/js/main.2362265b.chunk.js",
+    "main.js.map": "//omermarc/PplFinder/static/js/main.2362265b.chunk.js.map",
+    "runtime-main.js": "//omermarc/PplFinder/static/js/runtime-main.acf3a1a7.js",
+    "runtime-main.js.map": "//omermarc/PplFinder/static/js/runtime-main.acf3a1a7.js.map",
+    "static/js/2.29005575.chunk.js": "//omermarc/PplFinder/static/js/2.29005575.chunk.js",
+    "static/js/2.29005575.chunk.js.map": "//omermarc/PplFinder/static/js/2.29005575.chunk.js.map",
+    "index.html": "//omermarc/PplFinder/index.html",
+    "static/js/2.29005575.chunk.js.LICENSE.txt": "//omermarc/PplFinder/static/js/2.29005575.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.39b1a71a.js",
-    "static/js/2.229f9e7d.chunk.js",
+    "static/js/runtime-main.acf3a1a7.js",
+    "static/js/2.29005575.chunk.js",
     "static/js/main.2362265b.chunk.js"
   ]
 }
